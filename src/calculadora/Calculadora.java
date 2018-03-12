@@ -21,15 +21,17 @@ public class Calculadora {
       String num2;
       int i;
       int j;
-      int digitosnum1;
-      int digitosnum2;
+  
       Scanner s = new Scanner(System.in);
+      System.out.println("En que base numerica esta su numero?"); /*pedir base del numero*/
+      System.out.println("Digite el numero 1");  
       num1 =  s.nextLine(); /*pedir numero 1*/
+      System.out.println("DIgite el numero 2");
       num2 =  s.nextLine(); /*pedir numero 2*/
-      digitosnum1 =num1.length(); /*cantidad de digitos en numero 1*/
-      digitosnum2 =num2.length(); /*cantidad de digitos en numero 2*/
-      char [] A = num1.toCharArray();
+
+      char [] A = num1.toCharArray(); //poner numeros 1 y 2 en matrices (A y B)*/
       char [] B = num2.toCharArray();
+      
     }
     
 }

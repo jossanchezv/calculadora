@@ -9,8 +9,9 @@ package logica;
  *
  * @author Estudiantes
  */
-public  abstract class conversor {
+public  abstract class conversor  {
     private void convertir(){
+       
         
     }
     
